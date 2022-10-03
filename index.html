@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- La balise head donne les infos générales du document -->
+<head> 
+    <!-- La balise meta représente toute les information de métadonnées qui ne peuvent être représentée par les balises base, link, script, style ou title -->
+    
+    <meta charset="UTF-8"> <!-- L'attribut charset de la balise meta sert à déclarer l'encodage utilisé par la page -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- l'attribut http-equiv de la balise meta peut modifier le comportement des serveurs ou des clients intéragissant avec le site web. L'attribut content lui, fournit une valeur associée avec l'attribut http-equiv -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tuto HTML</title>
     <meta name="description" content="un site qui présente les différentes balises HTML">
+
+    <!-- La balise title sert à définir le titre de la page -->
+    <title>Tuto HTML</title>
+
+    <!-- La balise link sert à relier un document externe comme une feuille de style ou des icônes utilisées en titre voir même une icône d'application sur mobile -->
     <link rel="stylesheet" href="src/css/style.css">
+
+    <!-- La balise script est utilisée pour intégré un script exécutable, si elle se trouve dans le head on doit lui ajouter les attributs async et defer pour que l'exécution du script se fasse sans erreurs. Sinon la balise script est généralement placée dans la balise body sans attributs hormis l'attributs src qui indique le repertoire du script -->
+    <!-- <script src="src/js/app.js"></script> -->
 </head>
 <body>
     <script src="src/js/app.js"></script>
